@@ -32,7 +32,7 @@ int main() {
 
 /*
     Time Complexity
-    N^2/2 Compares and Exchanges
+    (N^2)/2 Compares and N Exchanges
     summary - select the smallest element from the unsorted array and move it to sorted array
                 maintaining pointer for minimum and current index 
 */

@@ -30,10 +30,11 @@ int main() {
 
 /*
   Time Complexity 
-  Randomly-ordered Array -> N^2/4 compares and exchanges (2x faster than Selection sort)
+  Randomly-ordered Array -> (N^2)/4 compares and exchanges (2x faster than Selection sort)
   Sorted Array in Descending Order -> N^2/2 compares and exchanges (slower than selection sort)
   Sorted Array in Ascending Order -> n - 1 compares and 0 exchanges
   Partially Sorted Arrays -> linear, exchanges = no. of inversions and compares = exchanges + inversions
-
+  Invesion is a pair of key that is out of order
+  
   summary - go from left to right comparing each item to its left and "inserting" the item in its correct position
 */

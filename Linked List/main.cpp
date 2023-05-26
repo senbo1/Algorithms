@@ -63,3 +63,9 @@ int main() {
   deleteNode(&head, 3);
   print(head);
 }
+
+// Time Complexity 
+// Insert/delete at beginning -> O(1)
+// Insert/delete at end -> O(N)
+// Insert/delete at nth Position -> O(N)
+// Access -> O(N)

@@ -31,3 +31,11 @@ class QuickFind {
       }
     }
 };
+
+// eager approach
+// p and q are connected if they have the same id
+// To merge change all ids of id[p] -> id[q]
+// Time Complexity
+// find -> O(1)
+// Union -> O(n) too slow on N^2 on N union commands on N objects (30+ years of computer time!)
+

@@ -5,7 +5,7 @@ using namespace std;
 class QuickUnion {
   private:
     vector<int> id;
-    vector<int> sz;
+    vector<int> sz; // union by rank
 
   public:
     QuickUnion(int N) {
@@ -35,3 +35,9 @@ class QuickUnion {
       else { id[j] = i; sz[i] += sz[j]; }
     }
 };
+
+// Lazy approach, improved version
+// id[i] is parent of i 
+// Time Complexity
+// find -> logN
+// union -> logN
